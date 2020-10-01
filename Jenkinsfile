@@ -9,7 +9,7 @@ stages {
             }
         }
         steps {
-            sh 'python -m py_compile variables.py'
+            sh 'python -m py_compile hello.py'
             stash(name: 'compiled-results',includes: 'sources/*.py*')
     
           }
