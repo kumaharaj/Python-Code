@@ -1,11 +1,7 @@
 pipeline {
-    agent none 
+    agent any 
     stages {
-        stage('Build') { 
-            agent {
-                any {
-                }
-            }
+        stage('Build') {
             steps {
                 sh 'python3 -m py_compile script.py'  
             }
