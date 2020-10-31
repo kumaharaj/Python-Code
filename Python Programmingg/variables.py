@@ -1,11 +1,15 @@
-
-x=10  
+x = 10   #No need to declare the data type of the variable.
 print(x)
-#it will print variable value which has been declared
-a = 20.3
+
+a = 20.3  #Variables can hold float and string value as well
 b= "Hello World"
 print(a,b)
-#Varicables can hold float and string value as well
-x = "Anjali"
+
+X = 25    #This is a new variable Capital X, variables are case sensitive.
+c = a + X
+d = a + x
+print(c,d)
+
+#Variable can be redefined , reassigning x again to new datatype and value
+x = "Anjali"  
 print(x)
-#Variable can be redefined 
